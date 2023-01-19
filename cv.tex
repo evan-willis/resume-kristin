@@ -1,0 +1,77 @@
+%!TEX program = lualatex
+
+\documentclass{muratcan_cv}
+\setname{Kristin}{Willis}
+\setaddress{Madison, WI}
+\setmobile{262--423--7940}
+\setmail{kristintuttle1@gmail.com}
+\setlinkedinaccount{https://www.linkedin.com/in/evan-willis/}
+\setthemecolor{\themecolor}
+
+\begin{document}
+\headerview{}
+
+% Experience
+\addblocktext{About Me}{
+Highly motivated and experienced software engineer with a strong background in developing and maintaining efficient, scalable, and secure applications. Skilled in both front-end and back-end development, with a knack for solving difficult problems. Experienced in DevOps practices, including continuous integration, deployment, and monitoring. Proven track record of delivering high-quality software from start to finish.
+}
+\\
+\\
+\\
+\chapter{\huge{\color{\themecolor} Experience }}
+\section{Systems Software Engineer}
+\explanation{Northwestern Mutual}
+%
+\datedexperience{CI/CD Engineering Team --- Rotation}{October 2022 -- Present}
+\explanationdetail{\coloredbullet\ %
+   Worked on a fast-paced team creating internal products used by thousands of developers across the company
+}
+\explanationdetail{\coloredbullet\ %
+   Adapted quickly to new team culture and began delivering high-quality code within days
+}
+\datedexperience{Network Reliability Engineering (NRE)}{2020 -- October 2022}
+\explanationdetail{\coloredbullet\ %
+   Created scalable and highly-available network monitoring applications
+}
+\explanationdetail{\coloredbullet\ %
+   Boosted developer productivity by creating automatic testing and deployment through CI/CD pipelines
+}
+\explanationdetail{\coloredbullet\ %
+   Established and enforced best-practices to significantly improve the value of our products
+}
+\explanationdetail{\coloredbullet\ %
+   Led team through a major restructure of our code by migrating to a cloud-focused design
+}
+\explanationdetail{\coloredbullet\ %
+   Hosted daily meetings with other engineers to teach software skills and methodologies
+}
+%
+\section{Associate Software Engineer}
+\explanation{Northwestern Mutual}
+%
+\datedexperience{Network Operations Team}{2019 -- 2020}
+\explanationdetail{\coloredbullet\ %
+   Developed playbooks to execute hardware upgrades and save countless, often error-prone, manual upgrades
+}
+\explanationdetail{\coloredbullet\ %
+   Designed and implemented data stores, collectors, and visualizations to help engineers better understand the status of the network
+}
+\explanationdetail{\coloredbullet\ %
+   Modified network repair software to improve performance by an order of magnitude
+}
+% Skills
+\\
+\\
+\chapter{\huge{\color{\themecolor} Qualifications }}
+\section{Skills}
+\newcommand{\skillone}{\createskill{Programming Languages}{\textbf{\emph{Experienced:}} \ \   Python \cpshalf{} JavaScript \ \ \textbf{\emph{Familiar:}} \ \ SQL \cpshalf{} Bash \cpshalf{} Java \cpshalf{} Terraform}}
+\newcommand{\skilltwo}{\createskill{Software Development}{API Development \cpshalf{} Git \cpshalf{} Agile Methodology \cpshalf{} DevOps \cpshalf{} GitLab CI/CD \cpshalf{} Linux}}
+\newcommand{\skillthree}{\createskill{Frameworks \ \& \ Libraries}{React \cpshalf{} Node.js \cpshalf{} django \cpshalf{} Pandas}}
+\newcommand{\skillfour}{\createskill{Tools}{Docker \cpshalf{} Amazon Web Services (AWS) \cpshalf{} Postman}}
+\createskills{\skillone, \skilltwo, \skillthree, \skillfour}
+%Education
+\section{Education}
+\datedexperience{University of Wisconsin --- Madison}{2016 -- May 2020}
+\explanation{B.S. Microbiology}
+
+\end{document}
