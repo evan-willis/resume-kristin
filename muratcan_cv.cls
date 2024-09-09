@@ -31,7 +31,7 @@
 \newcommand*{\setmail}[1]{\def\@mail{#1}}
 \newcommand*{\setthemecolor}[1]{\def\@themecolor{#1}}
 \newcommand*{\setlinkedinaccount}[1]{\def\@linkedinaccount{#1}}
-\newcommand{\themecolor}{Bittersweet}
+\newcommand{\themecolor}{PineGreen}
 
 %Setup for coverletter
 
@@ -50,11 +50,8 @@
 
 % can makebox also be used?
 \newcommand\headerview{
-\begin{minipage}{0.25\linewidth}
-    \profpic{0.12}{images/profilepic.jpg}
-\end{minipage}% 
 \hfill
-\begin{minipage}{0.45\linewidth}
+\begin{minipage}{\linewidth}
     \center \name \\[0.05cm] 
     \contact % address \ mobile \\ mail
 \end{minipage}
@@ -79,7 +76,7 @@
 \newcommand{\linkedinview}{\href{\@linkedinaccount}{\faLinkedinSquare\ \footnotesize linkedin}}
 
 \newcommand{\name}{%
-    {\large \@firstname \ \textsc{\@lastname}}
+    {\LARGE \textsc{\@firstname} \ \textsc{\@lastname}}
 }
 
 \newcommand{\contact}{%
